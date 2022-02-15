@@ -3,6 +3,7 @@
   font-family: serif;
   padding: 0px;
   margin: 0px;
+
 }
 
 body, html{
@@ -25,6 +26,10 @@ h1{
 
 div{
   display: block;
+}
+
+a{
+  font-size: 15px;
 }
 
 .parallax1 { /* from ww3 schools*/
@@ -102,25 +107,10 @@ opacity: 100%;
   letter-spacing: 2px;
 }
 
-.menu {
-    overflow: hidden;
-    background-color: #ffff;
-    position: fixed;
-    top: 0;
-    width: 100%;
+.menu{
+  background-color: #d3d3d3;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
-
-.menu a {
-   float: left;
-   display: block;
-   color: #c197d2;
-   text-align: center;
-   padding: 14px 16px;
-   text-decoration: none;
-   font-size: 17px;
- }
-
- .menu a:hover {
-   background: #c197d2;
-   color: #211522;
- }
